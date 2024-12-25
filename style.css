@@ -1,0 +1,65 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #6a5acd, #00bcd4); /* Purple to Cyan Gradient */
+  }
+  
+  #captcha-container {
+    text-align: center;
+    padding: 30px;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(5px);
+    width: 300px;
+    box-sizing: border-box;
+  }
+  
+  canvas {
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    border-radius: 5px;
+  }
+  
+  input {
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 80%;
+    outline: none;
+    box-sizing: border-box;
+  }
+  
+  input:focus {
+    border-color: #ff6347; /* Tomato Color */
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    background-color: #ff6347; /* Tomato Color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #e53d2d; /* Darker Tomato */
+  }
+  
+  #status {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
